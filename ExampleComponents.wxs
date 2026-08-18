@@ -1,0 +1,38 @@
+<Wix xmlns="http://wixtoolset.org/schemas/v4/wxs">
+	<Fragment>
+		<ComponentGroup Id="ExampleComponents"
+                        Directory="INSTALLFOLDER">
+
+			<Component Id="FuelTripEstimatorExeComponent">
+				<File Source="FuelTripEstimator.exe"
+                      KeyPath="yes" />
+			</Component>
+
+			<Component Id="FuelTripEstimatorDllComponent">
+				<File Source="FuelTripEstimator.dll"
+                      KeyPath="yes" />
+			</Component>
+
+			<Component Id="FuelMathLibraryComponent">
+				<File Source="FuelMathLibrary.dll"
+                      KeyPath="yes" />
+			</Component>
+
+			<Component Id="TripValidationLibraryComponent">
+				<File Source="TripValidationLibrary.dll"
+                      KeyPath="yes" />
+			</Component>
+
+			<Component Id="FuelTripEstimatorDepsComponent">
+				<File Source="FuelTripEstimator.deps.json"
+                      KeyPath="yes" />
+			</Component>
+
+			<Component Id="FuelTripEstimatorRuntimeComponent">
+				<File Source="FuelTripEstimator.runtimeconfig.json"
+                      KeyPath="yes" />
+			</Component>
+
+		</ComponentGroup>
+	</Fragment>
+</Wix>
