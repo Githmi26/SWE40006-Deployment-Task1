@@ -1,0 +1,23 @@
+<Wix xmlns="http://wixtoolset.org/schemas/v4/wxs">
+	<Fragment>
+		<ComponentGroup Id="ExampleComponents" Directory="INSTALLFOLDER">
+
+			<Component Id="SampleAppExeComponent">
+				<File Source="SampleApp.exe" KeyPath="yes" />
+			</Component>
+
+			<Component Id="SampleAppDllComponent">
+				<File Source="SampleApp.dll" KeyPath="yes" />
+			</Component>
+
+			<Component Id="SampleAppDepsComponent">
+				<File Source="SampleApp.deps.json" KeyPath="yes" />
+			</Component>
+
+			<Component Id="SampleAppRuntimeConfigComponent">
+				<File Source="SampleApp.runtimeconfig.json" KeyPath="yes" />
+			</Component>
+
+		</ComponentGroup>
+	</Fragment>
+</Wix>
