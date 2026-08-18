@@ -1,0 +1,14 @@
+﻿<Wix xmlns="http://wixtoolset.org/schemas/v4/wxs">
+	<Package Id="SwinburneStudent.FuelTripEstimatorSetup"
+             Name="Fuel Trip Cost Estimator"
+             Manufacturer="SwinburneStudent"
+             Version="1.0.0">
+
+		<MajorUpgrade DowngradeErrorMessage="!(loc.DowngradeError)" />
+
+		<Feature Id="Main">
+			<ComponentGroupRef Id="ExampleComponents" />
+		</Feature>
+
+	</Package>
+</Wix>
