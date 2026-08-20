@@ -3,12 +3,6 @@
 This repository contains my Pass-level deployment task for
 SWE40006 Software Deployment and Evolution.
 
-## Application
-
-SampleApp is a simple C# console application that displays:
-
-Deployment Activity 1: Pass Task Completed!
-
 ## Technologies Used
 
 - Visual Studio 2026
@@ -17,21 +11,39 @@ Deployment Activity 1: Pass Task Completed!
 - HeatWave for Visual Studio
 - Windows Installer MSI
 
-## Project Structure
+# SWE40006 Deployment Portfolio Task 1
 
-- SampleApp - C# console application
-- SampleAppSetup - WiX installer project
+This repository contains the source code, WiX configuration files, class libraries, and deployment-related files used for **Deployment Portfolio Task 1** in **SWE40006 Software Deployment and Evolution**.
 
-## Deployment Process
+## Student Details
 
-1. Created SampleApp in Visual Studio.
-2. Built the application in Release mode.
-3. Created a WiX MSI project using HeatWave.
-4. Configured Package.wxs, Folders.wxs and ExampleComponents.wxs.
-5. Built SampleAppSetup.msi.
-6. Installed the application.
-7. Verified the application under C:\Program Files\SampleApp.
-8. Ran the installed application.
+**Name:** Githmi Kasundi Sirimanna Lanuhewage  
+**Student ID:** 104828196  
+**Unit:** SWE40006 Software Deployment and Evolution  
+**Target Level:** High Distinction – Task 1.4  
+
+
+## Project Overview
+
+This portfolio task demonstrates the process of packaging and deploying Windows desktop applications using the **WiX Toolset**.
+
+The work was completed in four stages:
+
+- Pass – package a basic sample application into an MSI
+- Credit – package a custom C# Windows Forms application
+- Distinction – package an application with multiple DLL dependencies
+- High Distinction – publish the MSI through GitHub Releases and submit a WinGet package manifest
+
+---
+
+## Pass Task – SampleApp
+
+The Pass task uses a simple C# console application named `SampleApp`.
+
+The application displays:
+
+```text
+Deployment Activity 1: Pass Task Completed!
 9. Uninstalled the application successfully.
 
 ## Unit
